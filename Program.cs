@@ -48,6 +48,7 @@ namespace Banoth
             await commandHandler.InstallCommandsAsync();
 
             var token = "OTU3MzY1Njc1OTY4NTg5ODk1.Yj9uRA.cH2hlFUEmb2jfV9-9ZOba-wmkGk";
+            // don't worry this token isn't the real actual token. it's expired
 
             await _client.LoginAsync(TokenType.Bot, token);
             await _client.StartAsync();
